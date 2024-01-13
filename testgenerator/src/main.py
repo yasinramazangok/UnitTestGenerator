@@ -1,9 +1,9 @@
 import tkinter as tk
-from gui import *  # 'gui.py'deki fonksiyonunuzu import edin
+from gui import *  
 
 def main():
-    window = create_window()  # GUI penceresini oluştur
-    window.mainloop()  # GUI'nin çalışmasını başlat
+    window = create_window()  # create GUI window
+    window.mainloop()  # GUI start
 
 if __name__ == "__main__":
     main()
